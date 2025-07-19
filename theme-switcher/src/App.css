@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  /* Light mode (default) variables */
+  --color-background: #ffffff;
+  --color-text: #1f2937;
+  --color-primary: #3b82f6;
+  --color-secondary: #e5e7eb;
+  --color-border: #e5e7eb;
+}
+
+/* Dark mode variables using CSS variables */
+.dark {
+  --color-background: #1f2937;
+  --color-text: #f9fafb;
+  --color-primary: #60a5fa;
+  --color-secondary: #4b5563;
+  --color-border: #374151;
+}
+
